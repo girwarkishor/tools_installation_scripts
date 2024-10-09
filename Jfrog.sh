@@ -1,4 +1,5 @@
 ##Install in Amazon Ubuntu
+##releases-docker.jfrog.io/jfrog/artifactory-oss:latest
 sudo usermod -aG docker $USER
 docker pull releases-docker.jfrog.io/jfrog/artifactory-oss:7.55.10
 sudo mkdir -p /jfrog/artifactory
